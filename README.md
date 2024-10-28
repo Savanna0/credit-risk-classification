@@ -18,12 +18,12 @@ Accuracy = 99%
 
 For Healthy loans (0) and high-risk loans (1)
 -	Healthy loans (0)
-o	Precision = 100%
-o	Recall = 99%
+	 - Precision = 100%
+   - Recall = 99%
 
 -	High-risk loans (1)
-o	Precision = 84%
-o	Recall = 94%
+   - Precision = 84%
+   - Recall = 94%
 
 ## Summary
 When looking at the results of the model, we see the model has a 99% accuracy for both the 0 (healthy loan) and 1 (high-risk loan) labels. However, if we look at the 0 and 1 labels individually, especially on the precision line, we see they are very different. For Healthy loans (0) we see a 100% precision rate and a 99% recall rate. While for the High-risk loan (1), we see 84% precision rate and a 94% recall rate. This difference shows us that it would be better to predict the Healthy loans (0) because of the higher precision rate. Even with this difference, we can expect the model to work relatively well, according to the accuracy rate of 99%. 
